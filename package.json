@@ -1,11 +1,11 @@
 {
   "name": "ical-generator",
   "description": "ical-generator is a small piece of code which generates ical calendar files",
-  "author": "Sebastian Pekarek <mail@sebbo.net>",
-  "version": "0.1.7",
+  "author": "Alex Hohulin <alex.hohulin@gmail.com>",
+  "version": "0.1.8",
   "bugs": {
-    "url": "http://github.com/sebbo2002/ical-generator/issues",
-    "email": "bugs@sebbo.net"
+    "url": "http://github.com/xoxulin/ical-generator.git",
+    "email": "alex.hohulin@gmail.com"
   },
   "dependencies": {},
   "devDependencies": {
@@ -20,6 +20,6 @@
   "main": "./lib/ical-generator.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/sebbo2002/ical-generator.git"
+    "url": "http://github.com/xoxulin/ical-generator.git"
   }
 }
