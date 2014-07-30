@@ -263,6 +263,7 @@ describe('ical-generator', function() {
 				start: new Date("Fr Oct 04 2013 22:39:30 UTC"),
 				end: new Date("Fr Oct 04 2013 23:15:00 UTC"),
 				stamp: new Date("Fr Oct 04 2013 23:34:53 UTC"),
+        reminders: [0, 10, 60, 2880],
 				summary: 'Simple Event'
 			});
 

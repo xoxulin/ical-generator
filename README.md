@@ -93,6 +93,9 @@ Appointment location
 #### options.organizer (Plain Object)
 Appointment organizer
 
+#### options.reminders (Array Object)
+Appointment list of reminders (time before start, minutes)
+
 ```javascript
 cal.addEvent({
 	start: new Date(),
@@ -103,7 +106,8 @@ cal.addEvent({
 	organizer: {
 		name: 'Organizer\'s Name',
 		email: 'organizer@example.com'
-	}
+	},
+	reminders: [0, 15, 60]
 });
 ```
 
