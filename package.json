@@ -1,24 +1,34 @@
 {
   "name": "ical-generator",
-  "description": "ical-generator is a small piece of code which generates ical calendar files",
-  "author": "Alex Hohulin <alex.hohulin@gmail.com>",
   "version": "0.1.8",
-  "bugs": {
-    "url": "http://github.com/xoxulin/ical-generator.git",
-    "email": "alex.hohulin@gmail.com"
+  "description": "ical-generator is a small piece of code which generates ical calendar files",
+  "main": "./lib/ical-generator.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
   },
   "dependencies": {},
   "devDependencies": {
     "mocha": "1.20.1",
-    "istanbul": "0.3.0"
+    "istanbul": "0.3.0",
+    "portfinder": "0.2.1"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"
   },
-  "preferGlobal": false,
-  "main": "./lib/ical-generator.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/xoxulin/ical-generator.git"
-  }
+    "url": "git://github.com/xoxulin/ical-generator.git"
+  },
+  "keywords": [
+    "iCal",
+    "ics",
+    "generator"
+  ],
+  "author": "Alex Hohulin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xoxulin/ical-generator/issues"
+  },
+  "homepage": "https://github.com/xoxulin/ical-generator"
 }
